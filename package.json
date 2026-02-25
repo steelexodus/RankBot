@@ -1,0 +1,15 @@
+{
+  "name": "discord-roblox-bot",
+  "version": "1.0.0",
+  "description": "Discord + Roblox bot with rank, XP, and gamepass systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "noblox.js": "^4.14.0",
+    "lowdb": "^1.0.0"
+  }
+}

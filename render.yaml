@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: discord-roblox-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: CLIENT_ID
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: ROBLOX_COOKIE
+        sync: false
+      - key: PORT
+        value: 3000
