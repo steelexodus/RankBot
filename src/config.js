@@ -4,7 +4,7 @@
 
 module.exports = {
   // --- Discord Bot Token (Bot page → Token) ---
-  DISCORD_TOKEN: 'MTQ3NTI2MDk4MTcxNzUwNDI2Mw.GAIqS4.SxBGSUylN9rBoKrrEe42odr0yGiSv3FAaMM1R8',
+  DISCORD_TOKEN: 'MTQ3NTI2MDk4MTcxNzUwNDI2Mw.GP6PLy.'+'8VO9WT1tcA_Vlk8hXCOjyfNPiwe3UNZ0QbThno',
 
   // --- Discord Application ID (General Information → Application ID) ---
   CLIENT_ID: '1475260981717504263',
